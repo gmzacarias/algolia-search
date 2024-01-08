@@ -1,0 +1,26 @@
+{
+  "name": "vercel-public-directory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gmzacarias/vercel-public-directory.git",
+  "author": "Gaston Mauro Zacarias <gastonmzacarias@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^16.3.1",
+    "micro-method-router": "^0.1.0",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.6",
+    "@types/react": "^18.2.47",
+    "typescript": "5.3.3"
+  }
+}
